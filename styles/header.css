@@ -4,16 +4,24 @@ header {
 
 }
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #profile {
     display: flex;
     gap: 32px;
 
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+
 }
 
 #profile > div {
